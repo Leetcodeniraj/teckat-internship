@@ -12,35 +12,45 @@ import './App.css';
 // else{
 //   console.log("hi");
 // }const  funct= () => {
-const  num = 5;
-const  num2 = 4;
+// const  num = 5;
+// const  num2 = 4;
 
-const  print = num + num2;
-  console.log(print);
+// const  print = num + num2;
+//   console.log(print);
 
-  
+
+// }
+
+// const student = {
+//   name : "niraj",
+//   age: 5,
+//   address:  "ranchi", 
+
+// };
+
+// let student2={
+//   name:"niraj",
+//   age:6,
+//   address:"jamshedpur",
+
+// };
+
+
+// if(student.name===student2.name){
+
+// funct();
+
+// }
+
+// array
+const arr1 =[1,2,3,4,5,6]
+
+// for off loop
+for(let item of arr1) 
+  {
+  console.log(item);
 }
 
-const student = {
-  name : "niraj",
-  age: 5,
-  address:  "ranchi", 
-
-};
-
-let student2={
-  name:"niraj",
-  age:6,
-  address:"jamshedpur",
-
-};
-
-
-if(student.name===student2.name){
-
-funct();
-
-}
 
 
   return (
