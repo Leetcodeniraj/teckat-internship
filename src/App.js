@@ -55,11 +55,12 @@ funct();
 */
 
 /*
-array
+    //  array
+
 const arr1 =[1,2,3,4,5,6]
 
 
- for off loop
+  // for off loop
 for(let item of arr1) 
   {
   console.log(item);
@@ -67,7 +68,7 @@ for(let item of arr1)
 */
 
 
-/* object with for off loop
+/* object with array and for off loop
 
 const people =[
   { name: "niraj", age: 22 },
@@ -82,20 +83,23 @@ for (let item of people)
 
   */
 
-/* object with for each loop
+
+/* object with array and  for each loop  
   const people =[
     { name: "niraj", age: 22 },
     { name:"raj", age: 21},
     { name:"rudra", age:20}
   ];
-   
+
   people.forEach((person) => {
     console.log(person.age)
   });
 
   */
 
-  /* for in 
+
+  /* object and for in loop
+
   const employee = {
     name:"niraj",
     age:30,
@@ -104,18 +108,21 @@ for (let item of people)
   };
 
   for(const key in employee){
-    if(employee.hasOwnProperty(key)){
+    if(employee.hasOwnProperty(key))
+      {
       console.log(`${key}: ${employee[key]}`)
      }
   }
  
-  also for concatenate
+  // extra information :- for concatenate
+  // console.log(employee+(another word)) or console.log(employee(another word))
 
   console.log()
   */
 
 /* map keyword for returning value
 
+  // array 
   const employees = [
     {name:"Niraj" , age: 22, salary:50 },
     {name:"Rudra" , age: 30, salary:80 },
@@ -141,6 +148,9 @@ console.log("mappedEmployees",mappedEmployees);
 
 /*for filtering data 
 
+
+  // array
+  
 const products = [
   {id: 1001, name:"Laptop", price: 1000, category:"Electronics"},
   {id: 1002, name:"shirt", price: 50, category:"clothing"},
