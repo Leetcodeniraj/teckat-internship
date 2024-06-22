@@ -3,6 +3,7 @@ import { IStudent } from "../interface/student";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 
+
 const CreateStudent: React.FC = () => {
   const navigate = useNavigate();
   const {
