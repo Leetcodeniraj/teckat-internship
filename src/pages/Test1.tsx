@@ -11,9 +11,8 @@ const Test1 = () => {
 
   return (
     <>
-   <h1>
-    Practical
-   </h1>
+   <h1> Increment </h1>
+   
    <button onClick={() =>
     setVal(val+1)
    }>
